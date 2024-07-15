@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["esnext", "dom"],
+    "paths": { "@/*": ["./src/*"] },
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "allowJs": true,
+    "strict": true,
+    "outDir": "out",
+    "forceConsistentCasingInFileNames": true
+  },
+
+  "include": ["src/**/*.ts", "src/**/*.js"]
+}

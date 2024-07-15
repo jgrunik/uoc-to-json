@@ -1,0 +1,6 @@
+node_modules/
+out/
+.vscode
+json/
+bun.lockb
+package-lock.json
